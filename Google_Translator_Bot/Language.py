@@ -947,7 +947,7 @@ GROUP_LANGUAGE = InlineKeyboardMarkup([
         [
             InlineKeyboardButton
                 (
-                    "TURKISH",callback_data = "lang tr"
+                    "TURKISH🇹🇷",callback_data = "lang tr"
                 ),
             InlineKeyboardButton
                 (
