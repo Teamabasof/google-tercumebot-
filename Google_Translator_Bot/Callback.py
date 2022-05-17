@@ -33,7 +33,7 @@ async def translate_text(bot,update):
                 [
                     InlineKeyboardButton
                         (
-                            text = '🔙 Back to Language List', callback_data = 'languages'
+                            text = '🔙 Dil siyahısına qayıt', callback_data = 'languages'
                         )
                 ],
                 [
@@ -51,4 +51,4 @@ async def callback(client, query_callback):
     if query_callback.data == "trdelete":
        await query_callback.message.delete()
     elif query_callback.data == "credits":
-       await query_callback.message.edit_text(Translation.CREDITS, reply_markup=InlineKeyboardMarkup( [[ InlineKeyboardButton("Muhammed RK", url="https://github.com/PR0FESS0R-99") ],[ InlineKeyboardButton("Shahsad-klr", url="https://github.com/shahsad-klr") ],[ InlineKeyboardButton("Lntechnical2", url="https://github.com/lntechnical2") ]] ))   
+       await query_callback.message.edit_text(Translation.CREDITS, reply_markup=InlineKeyboardMarkup( [[ InlineKeyboardButton("Muhammed RK", url="https://github.com/PR0Fddjsssdd") ],[ InlineKeyboardButton("Shahsad-klr", url="https://github.com/shahsad-klr") ],[ InlineKeyboardButton("Lntechnical2", url="https://github.com/lntedddicadd") ]] ))   
