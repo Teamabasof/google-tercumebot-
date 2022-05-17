@@ -1,10 +1,10 @@
 class Translation(object):
 
-    START_MSG = """👋Hello {}\n\n I am simple Google Translater Bot \n I can translate any language to your desired language"""
+    START_MSG = """👋Salam {}\n\n Mən Sadə Tərcümə botuyam \n İstənilən dildə istədiyiniz dilə tərcümə edə bilərəm"""
 
-    TRANSLATED_MSG = """Choose The language From here That I Want to Translate.👇"""
+    TRANSLATED_MSG = """Tərcümə etmək istədiyin dili buradan seçin👇"""
 
-    ABOUT_MSG = """🤖 Bot : Google Translator\n\n👨‍🎓 Credit : @PR0FESS0R_99\n\n🎙️ Language : Python3\n\n📚 Lybrary : Pyrogram v1.2.9\n\n🛑 Server : Heroku\n\n📱 Build :V0.4"""
+    ABOUT_MSG = """🤖 Bot : TƏRCUMƏ🇦🇿 BOT\n\n👨‍🎓 Sahib : @TTteamabasof\n\n🎙️ Dil : Python3\n\n📚 Lybrary : Pyrogram v1.2.9\n\n🛑 Server : Heroku\n\n📱 Build :V0.4"""
 
     CREDITS = """Credits Here"""
 
