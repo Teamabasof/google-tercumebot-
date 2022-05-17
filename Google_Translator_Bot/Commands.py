@@ -36,7 +36,7 @@ async def start_main(main, update):
         )
     )
 
-@google_transletor_bot.on_message(filters.command("tr"))
+google_transletor_bot.on_message(filters.command("tr"))
 async def echo(client, message): 
     await message.reply_text(
         Translation.TRANSLATED_MSG,
