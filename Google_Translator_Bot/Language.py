@@ -23,11 +23,11 @@ BOT_LANGUAGE = InlineKeyboardMarkup([
                 ),
             InlineKeyboardButton
                 (
-                    "ARMENIAN", callback_data='lang hy'
+                    "Yoxdu", callback_data='lang '
                 ),
             InlineKeyboardButton
                 (
-                    "AZERBAIJANI",callback_data = 'lang az'
+                    "AZERBAIJANI🇦🇿",callback_data = 'lang az'
                 )
         ],
         [
