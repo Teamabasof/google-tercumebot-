@@ -5,21 +5,21 @@ BOT_LANGUAGE = InlineKeyboardMarkup([
         [
             InlineKeyboardButton
                 (
-                    "AFRIKAANS", callback_data='lang af'
+                    "AZERBAJAN🇦🇿", callback_data='lang az'
                 ),
             InlineKeyboardButton
                 (
-                    "ALBANIAN", callback_data='lang sq'
+                    "TURKISH🇹🇷", callback_data='lang tr'
                 ),
             InlineKeyboardButton
                 (
-                    "AMHARIC",callback_data ='lang am'
+                    "ENGLISH🏴󠁧󠁢󠁥󠁮󠁧󠁿",callback_data ='lang en'
                 )
         ],
         [
             InlineKeyboardButton
                 (
-                    "ARABIC", callback_data='lang ar'
+                    "RUSSIAN🇷🇺", callback_data='lang ru'
                 ),
             InlineKeyboardButton
                 (
@@ -27,7 +27,7 @@ BOT_LANGUAGE = InlineKeyboardMarkup([
                 ),
             InlineKeyboardButton
                 (
-                    "AZERBAIJANI🇦🇿",callback_data = 'lang az'
+                    "AFRIKAANS",callback_data = 'lang af'
                 )
         ],
         [
@@ -89,7 +89,7 @@ BOT_LANGUAGE = InlineKeyboardMarkup([
                 ),
             InlineKeyboardButton
                 (
-                    "ENGLISH",callback_data = "lang en"
+                    "AMHARIC",callback_data = "lang am"
                 ),
             InlineKeyboardButton
                 (
@@ -843,7 +843,7 @@ GROUP_LANGUAGE = InlineKeyboardMarkup([
                 ),
             InlineKeyboardButton
                 (
-                    "RUSSIAN",callback_data = "lang ru"
+                    "ARABIC",callback_data = "lang ar"
                 )
         ],
         [
@@ -947,7 +947,7 @@ GROUP_LANGUAGE = InlineKeyboardMarkup([
         [
             InlineKeyboardButton
                 (
-                    "TURKISH🇹🇷",callback_data = "lang tr"
+                    "ALBANIAN",callback_data = "lang sq"
                 ),
             InlineKeyboardButton
                 (
