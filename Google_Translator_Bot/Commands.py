@@ -89,7 +89,7 @@ async def broadcast_(c, m):
             break
     
     out = await m.reply_text(
-        text = f"Broadcast initiated! You will be notified with log file when all the users are notified."
+        text = f"Yayım başladı! Bütün istifadəçilərə məlumat verildikdə sizə log faylı ilə bildiriş göndəriləcək."
     )
     start_time = time.time()
     total_users = await db.total_users_count()
@@ -143,7 +143,7 @@ async def broadcast_(c, m):
     
     if failed == 0:
         await m.reply_text(
-            text=f"broadcast completed in `{completed_in}`\n\nTotal users {total_users}.\nTotal done {done}, {success} success and {failed} failed.",
+            text=f"yayim tamanlandı `{completed_in}`\n\nÜmumi istifadəçilər {total_users}.\nTotal done {done}, {success} success and {failed} failed.",
             quote=True
         )
     else:
