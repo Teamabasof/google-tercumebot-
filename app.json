@@ -31,6 +31,34 @@
         "DATABASE": {
             "description": "Video Link https://youtu.be/gBLTsH-IXr0",
             "value": ""
+        },
+        "OWNER_ID": {
+          "description": "Sahib id si",
+          "value": ""
+        },
+        "DATABASE_URL": {
+          "description": "mongo db",
+          "value": ""
+        },
+        "BOT_USERNAME": {
+          "description": "botun adi",
+          "value": ""
+        },
+        "LOG_CHANNEL": {
+          "description": "log kanali",
+          "vale": ""
+        },
+        "GROUP_SUPPORT": {
+          "description": "support qrupu",
+          "value": ""
+        },
+        "GONDERME_TURU": {
+          "description": "brodcasr",
+          "value": ""
+        },
+        "LANGUAGE": {
+          "description": "dil kodu",
+          "value": "False"
         }
     },
     "buildpacks": [
