@@ -5,3 +5,6 @@ requests
 motor
 aiofiles
 dnspython
+pymongo[srv]
+aiofiles
+psutil
