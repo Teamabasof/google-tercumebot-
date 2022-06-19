@@ -32,14 +32,6 @@
             "description": "Video Link https://youtu.be/gBLTsH-IXr0",
             "value": ""
         },
-        "OWNER_ID": {
-          "description": "Sahib id si",
-          "value": ""
-        },
-        "DATABASE_URL": {
-          "description": "mongo db",
-          "value": ""
-        },
         "BOT_USERNAME": {
           "description": "botun adi",
           "value": ""
@@ -58,7 +50,7 @@
         },
         "LANGUAGE": {
           "description": "dil kodu",
-          "value": "False"
+          "value": ""
         }
     },
     "buildpacks": [
